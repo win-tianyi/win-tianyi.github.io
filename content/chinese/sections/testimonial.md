@@ -8,7 +8,7 @@ testimonials:
   - name: "某制造企业"
     designation: "产线负责人"
     avatar: "/images/avatar-sm.png"
-    content: "天一机器人帮我们解决了机械臂重复定位精度的问题，产线良率明显提升。"
+    content: "tianyi帮我们解决了机械臂重复定位精度的问题，产线良率明显提升。"
 
   - name: "某自动化集成商"
     designation: "项目经理"

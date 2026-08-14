@@ -1,1 +1,12 @@
 /* Add your own custom styles here */
+
+/* 导航栏 logo 尺寸（与原 logo 高度一致） */
+.navbar-brand img {
+  height: 32px;
+  width: auto;
+}
+
+/* 导航栏 logo 旁文字 */
+.navbar-brand .brand-text {
+  @apply text-text-dark dark:text-darkmode-text-dark text-xl font-semibold ml-3;
+}

@@ -2,8 +2,8 @@
 # Banner
 banner:
   title: "让机械臂更智能、更可靠"
-  content: "天一机器人专注工业机械臂的研发与应用，提供机械臂控制、调试、维护与二次开发的全流程技术方案与实战经验分享。"
-  image: "/images/banner.png"
+  content: "专注工业机械臂的研发与应用，提供机械臂集成、调试、维护与二次开发的全流程技术方案与实战经验分享。"
+  image: "/images/banner.svg"
   button:
     enable: true
     label: "了解更多 🚀"

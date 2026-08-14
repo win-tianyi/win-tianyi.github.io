@@ -1,6 +1,13 @@
 ################ 中文（简体）语言 ##################
 [zh-cn]
-label = "中"
+label = "中文"
 locale = "zh-cn"
 contentDir = "content/chinese"
 weight = 1
+
+################ English language ##################
+[en]
+label = "English"
+locale = "en-us"
+contentDir = "content/english"
+weight = 2

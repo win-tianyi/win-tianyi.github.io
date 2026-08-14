@@ -1,7 +1,7 @@
 ---
 title: "联系我们"
 meta_title: ""
-description: "天一机器人联系方式"
+description: "tianyi联系方式"
 layout: "contact"
 draft: false
 ---

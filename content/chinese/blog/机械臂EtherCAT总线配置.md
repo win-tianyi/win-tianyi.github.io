@@ -5,7 +5,7 @@ description: "EtherCAT 是工业机械臂最常用的现场总线之一，本文
 date: 2025-02-15T10:00:00+08:00
 image: "/images/image-placeholder.png"
 categories: ["控制"]
-author: "天一机器人"
+author: "tianyi"
 tags: ["EtherCAT", "伺服", "总线配置"]
 draft: false
 ---
