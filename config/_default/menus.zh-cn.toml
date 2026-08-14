@@ -1,0 +1,22 @@
+############# 中文导航 ##############
+
+# 主菜单
+[[main]]
+name = "首页"
+url = "/"
+weight = 1
+
+[[main]]
+name = "关于我们"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "技术博客"
+url = "/blog"
+weight = 3
+
+[[main]]
+name = "联系我们"
+url = "/contact"
+weight = 4

@@ -1,0 +1,6 @@
+################ 中文（简体）语言 ##################
+[zh-cn]
+label = "中"
+locale = "zh-cn"
+contentDir = "content/chinese"
+weight = 1
