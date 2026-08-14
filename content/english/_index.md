@@ -3,7 +3,7 @@
 banner:
   title: "Smarter, More Reliable Robot Arms"
   content: "Focused on the R&D and application of industrial robot arms, we deliver end-to-end technical solutions and practical experience in robot arm integration, commissioning, maintenance, and secondary development."
-  image: "/images/banner.svg"
+  image: "/images/banner.png"
   button:
     enable: true
     label: "Learn More 🚀"

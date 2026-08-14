@@ -19,7 +19,7 @@ yarn.lock
 .github/
 .vscode/
 .devcontainer/
-images/
+/images/
 skills-lock.json
 .editorconfig
 .gitlab-ci.yml
