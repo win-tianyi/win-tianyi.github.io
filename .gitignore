@@ -13,3 +13,16 @@ jsconfig.json
 go.sum
 yarn.lock
 .hugo_build.lock
+
+# 本地开发工具/模板残留文件(不上传到 GitHub)
+.agents/
+.github/
+.vscode/
+.devcontainer/
+images/
+skills-lock.json
+.editorconfig
+.gitlab-ci.yml
+.jshintrc
+.markdownlint.json
+.prettierrc
