@@ -1,8 +1,8 @@
 /* Add your own custom styles here */
 
-/* 导航栏 logo 尺寸（与原 logo 高度一致） */
+/* 导航栏 logo 尺寸（原 32px，放大 1.5 倍） */
 .navbar-brand img {
-  height: 32px;
+  height: 48px;
   width: auto;
 }
 
