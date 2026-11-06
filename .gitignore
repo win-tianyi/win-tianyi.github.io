@@ -1,0 +1,15 @@
+# build output
+public/
+
+# zola dev cache
+.drafts/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+node_modules/
+
+# local env
+.env
+.wrangler/
