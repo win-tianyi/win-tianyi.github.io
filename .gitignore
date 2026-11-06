@@ -1,15 +1,12 @@
-# build output
+# Zola 构建产物
 public/
-
-# zola dev cache
 .drafts/
 
-# OS / editor
+# Cloudflare / Wrangler
+.wrangler/
+
+# 本地杂项
 .DS_Store
 Thumbs.db
-*.swp
-node_modules/
-
-# local env
-.env
-.wrangler/
+*.zip
+*.bundle
