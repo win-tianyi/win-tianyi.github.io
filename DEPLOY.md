@@ -57,3 +57,14 @@ tianyi.win  CNAME  win-tianyi-zola.pages.dev  (Proxied / 橙云)
 - [ ] `https://win-tianyi-zola.pages.dev/en/` 200
 - [ ] 自定义域 `https://tianyi.win/` 200（需 DNS 记录就位）
 - [ ] 语言按钮中文页显示 `English`、英文页显示 `中文`
+
+## 域名策略（2026-11-09 定稿）
+
+- 主域名：`https://www.tianyi.win/`（`zola.toml` 的 `base_url` 指向它，sitemap/canonical 全部用 www）
+- 裸域 `https://tianyi.win/`：由 Cloudflare Redirect Rule 301 跳到 `https://www.tianyi.win/`
+- DNS（Cloudflare zone `tianyi.win`，zone id `74684c3d14f6f380d90d07dd4fe93ffb`）
+  - `CNAME tianyi.win -> win-tianyi-zola.pages.dev`，Proxied
+  - `CNAME www.tianyi.win -> win-tianyi-zola.pages.dev`，Proxied
+  - 早期那条 `AAAA tianyi.win 100::` 是 Cloudflare 的占位黑洞记录，会让 Pages 一直报 `CNAME record not set`，已删除
+- Pages 项目自定义域只需要 `www.tianyi.win`（状态 active）；`tianyi.win` 作为自定义域可以是 deactivated，跳转交给 Redirect Rule
+- 本地排查注意：若 `curl` 返回 `code=000` 或 schannel 握手失败，先用 `curl --resolve www.tianyi.win:443:<CF边缘IP> https://www.tianyi.win/` 排除本机代理/fake-ip 干扰
